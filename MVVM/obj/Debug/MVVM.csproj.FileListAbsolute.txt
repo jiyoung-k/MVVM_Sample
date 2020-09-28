@@ -1,0 +1,16 @@
+C:\Users\jiyou\source\repos\MVVM\MVVM\bin\Debug\MVVM.exe.config
+C:\Users\jiyou\source\repos\MVVM\MVVM\bin\Debug\MVVM.exe
+C:\Users\jiyou\source\repos\MVVM\MVVM\bin\Debug\MVVM.pdb
+C:\Users\jiyou\source\repos\MVVM\MVVM\obj\Debug\MVVM.csprojAssemblyReference.cache
+C:\Users\jiyou\source\repos\MVVM\MVVM\obj\Debug\Views\MainView.g.cs
+C:\Users\jiyou\source\repos\MVVM\MVVM\obj\Debug\App.g.cs
+C:\Users\jiyou\source\repos\MVVM\MVVM\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\jiyou\source\repos\MVVM\MVVM\obj\Debug\MVVM_MarkupCompile.cache
+C:\Users\jiyou\source\repos\MVVM\MVVM\obj\Debug\MVVM_MarkupCompile.lref
+C:\Users\jiyou\source\repos\MVVM\MVVM\obj\Debug\Views\MainView.baml
+C:\Users\jiyou\source\repos\MVVM\MVVM\obj\Debug\MVVM.g.resources
+C:\Users\jiyou\source\repos\MVVM\MVVM\obj\Debug\MVVM.Properties.Resources.resources
+C:\Users\jiyou\source\repos\MVVM\MVVM\obj\Debug\MVVM.csproj.GenerateResource.cache
+C:\Users\jiyou\source\repos\MVVM\MVVM\obj\Debug\MVVM.csproj.CoreCompileInputs.cache
+C:\Users\jiyou\source\repos\MVVM\MVVM\obj\Debug\MVVM.exe
+C:\Users\jiyou\source\repos\MVVM\MVVM\obj\Debug\MVVM.pdb
