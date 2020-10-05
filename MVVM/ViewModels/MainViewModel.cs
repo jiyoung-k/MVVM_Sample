@@ -2,22 +2,35 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Input;
 using System.Xml.Serialization;
 
 namespace MVVM.ViewModels
 {
-    class MainViewModel : INotifyPropertyChanged
+    class MainViewModel : Notifier
     {
-        public event PropertyChangedEventHandler PropertyChanged;
 
         Models.MainModel mainModel;
 
         public MainViewModel()
         {
             mainModel = new Models.MainModel();
+        }
+
+        private void WindowLoaded()
+        {
+            MessageBox.Show("Window Load !!!!");
+        }
+
+        private void WindowClosed()
+        {
+            MessageBox.Show("Window Closed !!!");
         }
 
         public Models.MainModel MainModel
@@ -34,7 +47,7 @@ namespace MVVM.ViewModels
                 if (MainModel.Name != value)
                 {
                     MainModel.Name = value;
-                    RaisePropertyChanged("Name");
+                    OnPropertyChanged("Name");
                 }
             }
         }
@@ -47,7 +60,7 @@ namespace MVVM.ViewModels
                 if(mainModel.Rate != value)
                 {
                     mainModel.Rate = value;
-                    RaisePropertyChanged("Rate");
+                    OnPropertyChanged("Rate");
                     Convert();
                 }
             }
@@ -61,7 +74,7 @@ namespace MVVM.ViewModels
                 if (mainModel.Amount != value)
                 {
                     mainModel.Amount = value;
-                    RaisePropertyChanged("Amount");
+                    OnPropertyChanged("Amount");
                     Convert();
                 }
             }
@@ -75,7 +88,7 @@ namespace MVVM.ViewModels
                 if(mainModel.Title != value)
                 {
                     mainModel.Title = value;
-                    RaisePropertyChanged("Title");
+                    OnPropertyChanged("Title");
                 }
             }
         }
@@ -84,15 +97,6 @@ namespace MVVM.ViewModels
         {
             decimal convertAmount = Amount * Rate;
             Title = string.Format("Amount in {0}", convertAmount);
-        }
-
-        private void RaisePropertyChanged(string propertyName)
-        {
-            PropertyChangedEventHandler handler = PropertyChanged;
-            if(handler != null)
-            {
-                handler(this, new PropertyChangedEventArgs(propertyName));
-            }
         }
     }
 }

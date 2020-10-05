@@ -14,3 +14,8 @@ C:\Users\jiyou\source\repos\MVVM\MVVM\obj\Debug\MVVM.csproj.GenerateResource.cac
 C:\Users\jiyou\source\repos\MVVM\MVVM\obj\Debug\MVVM.csproj.CoreCompileInputs.cache
 C:\Users\jiyou\source\repos\MVVM\MVVM\obj\Debug\MVVM.exe
 C:\Users\jiyou\source\repos\MVVM\MVVM\obj\Debug\MVVM.pdb
+C:\Users\jiyou\source\repos\MVVM\MVVM\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\jiyou\source\repos\MVVM\MVVM\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\jiyou\source\repos\MVVM\MVVM\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\jiyou\source\repos\MVVM\MVVM\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\jiyou\source\repos\MVVM\MVVM\obj\Debug\MVVM.csproj.CopyComplete
