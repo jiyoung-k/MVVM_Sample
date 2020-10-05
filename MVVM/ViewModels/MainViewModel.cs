@@ -21,16 +21,7 @@ namespace MVVM.ViewModels
         public MainViewModel()
         {
             mainModel = new Models.MainModel();
-        }
-
-        private void WindowLoaded()
-        {
-            MessageBox.Show("Window Load !!!!");
-        }
-
-        private void WindowClosed()
-        {
-            MessageBox.Show("Window Closed !!!");
+            
         }
 
         public Models.MainModel MainModel
@@ -48,6 +39,7 @@ namespace MVVM.ViewModels
                 {
                     MainModel.Name = value;
                     OnPropertyChanged("Name");
+                    Convert();
                 }
             }
         }
@@ -96,7 +88,7 @@ namespace MVVM.ViewModels
         private void Convert()
         {
             decimal convertAmount = Amount * Rate;
-            Title = string.Format("Amount in {0}", convertAmount);
+            Title = string.Format("Name is {0} , Amount in {1}", Name, convertAmount);
         }
     }
 }
